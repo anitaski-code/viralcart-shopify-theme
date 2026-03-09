@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ shop.name }} - {{ page_title }}</title>
+<link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+{{ content_for_header }}
+</head>
+<body>
+
+<header>
+<div class="logo">{{ shop.name }}</div>
+<nav>
+<a href="/">Home</a>
+<a href="/collections/all">Shop</a>
+<a href="/pages/contact">Contact</a>
+</nav>
+</header>
+
+{{ content_for_layout }}
+
+<footer style="background:#111;color:white;text-align:center;padding:30px;">
+<p>© 2026 {{ shop.name }}</p>
+<p>Trending gadgets store</p>
+</footer>
+
+</body>
+</html>

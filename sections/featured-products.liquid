@@ -1,0 +1,10 @@
+<section style="display:grid;grid-template-columns:repeat(3,1fr);gap:30px;padding:50px;">
+{% for product in collections.featured.products %}
+<div class="card">
+<img src="{{ product.featured_image | img_url: 'medium' }}">
+<h3>{{ product.title }}</h3>
+<p class="price">${{ product.price | money }}</p>
+<a href="{{ product.url }}"><button>Buy Now</button></a>
+</div>
+{% endfor %}
+</section>

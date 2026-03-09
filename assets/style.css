@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+header { background:#111; color:white; padding:20px; display:flex; justify-content:space-between; }
+.logo { font-size:24px; font-weight:bold; }
+nav a { color:white; margin-left:20px; text-decoration:none; }
+button { background:#ff4d4d; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer; }
+section { padding:50px; }
+.card { background:white; padding:20px; border-radius:10px; text-align:center; box-shadow:0 5px 10px rgba(0,0,0,0.1); }
+.card img { width:100%; border-radius:8px; }
+.price { font-size:20px; font-weight:bold; color:#ff4d4d; }

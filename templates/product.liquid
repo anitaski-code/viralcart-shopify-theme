@@ -1,0 +1,14 @@
+<div style="display:flex;gap:50px;padding:50px;">
+<div style="flex:1;">
+<img src="{{ product.featured_image | img_url: '1024x1024' }}">
+</div>
+<div style="flex:1;">
+<h1>{{ product.title }}</h1>
+<p style="color:#ff4d4d;font-weight:bold;">${{ product.price | money }}</p>
+<p>{{ product.description }}</p>
+<form action="/cart/add" method="post">
+<input type="hidden" name="id" value="{{ product.variants.first.id }}">
+<button type="submit">Add to Cart</button>
+</form>
+</div>
+</div>

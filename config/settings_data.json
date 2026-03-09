@@ -1,0 +1,21 @@
+{
+  "current": "viralcart",
+  "presets": {
+    "viralcart": {
+      "name": "ViralCart",
+      "settings": {
+        "color_body_bg": "#f5f5f5",
+        "color_header_bg": "#111111",
+        "color_header_text": "#ffffff",
+        "color_footer_bg": "#111111",
+        "color_footer_text": "#ffffff",
+        "font_primary": "Arial, sans-serif",
+        "homepage_hero_enabled": true,
+        "homepage_featured_products_enabled": true,
+        "homepage_testimonials_enabled": true,
+        "products_per_row": 3,
+        "product_image_ratio": "1:1"
+      }
+    }
+  }
+}
